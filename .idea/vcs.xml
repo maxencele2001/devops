@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/cloud-init" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/learn-terraform-provisioning" vcs="Git" />
+=======
+>>>>>>> 3cb295dae2b11e338cea6ac065c595bba19c111f
   </component>
 </project>
