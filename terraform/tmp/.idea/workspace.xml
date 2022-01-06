@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1280d948-9026-4c8f-bae4-6960775ae130" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/terraform/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform.lock.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform.lock.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/hashicorp/aws/3.68.0/linux_amd64/terraform-provider-aws_v3.68.0_x5" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/3.68.0/linux_amd64/terraform-provider-aws_v3.68.0_x5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/hashicorp/template/2.2.0/linux_amd64/terraform-provider-template_v2.2.0_x4" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/providers/registry.terraform.io/hashicorp/template/2.2.0/linux_amd64/terraform-provider-template_v2.2.0_x4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws/credentials-ynov" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/credentials-ynov" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-init/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-init/instances/.terraform.lock.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloud-init/instances/.terraform.lock.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-init/instances/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloud-init/instances/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-init/instances/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloud-init/instances/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-init/scripts/add-ssh-web-app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloud-init/scripts/add-ssh-web-app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/key/id_rsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/key/id_rsa.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource-app.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/resource-app.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform.tfstate.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform.tfstate.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variable.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/variable.tf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="21xVt9mFiZuo4Q8dLgn2lkz9fnh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/key" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxence CROSSE\Desktop\Ynov\B3\devops\project\key" />
+      <recent name="C:\Users\Maxence CROSSE\Desktop\Ynov\B3\devops\project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxence CROSSE\Desktop\Ynov\B3\devops\project\terraform" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1280d948-9026-4c8f-bae4-6960775ae130" name="Changes" comment="" />
+      <created>1638882938058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638882938058</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
