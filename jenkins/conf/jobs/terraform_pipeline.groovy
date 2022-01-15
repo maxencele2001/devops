@@ -10,7 +10,7 @@ pipeline {
         stage('Init ssh key') {
             steps {
                 dir("/usr/share/terraform/tmp/cloud-init/scripts/"){
-                    sh "sed -i 's/SSH_PUBLIC_KEY/${params.SSH_PUBLIC_KEY}/g' add-ssh-web-app.yaml"
+                    sh "sed -i 's/MY_BIG_KEY/${params.MY_BIG_KEY}/g' add-ssh-web-app.yaml"
                 }
             }
         }
