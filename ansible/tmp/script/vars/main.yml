@@ -1,0 +1,5 @@
+---
+# vars file for script
+
+USER : "java_user"
+PATH : "/opt/app"

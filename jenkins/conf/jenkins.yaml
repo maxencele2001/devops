@@ -84,3 +84,5 @@ jobs:
   - file: /var/jenkins_config/jobs/jar_params.groovy
   - file: /var/jenkins_config/jobs/terraform_params.groovy
   - file: /var/jenkins_config/jobs/destroy_params.groovy
+  - file: /var/jenkins_config/jobs/ansible_params.groovy
+  - file: /var/jenkins_config/jobs/ssh_params.groovy

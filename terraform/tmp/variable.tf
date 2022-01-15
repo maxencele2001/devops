@@ -6,9 +6,9 @@ variable "env" {
 }
 
 # Instance ssh key name
-variable "ssh_key_name" {
+variable "ssh_key_maxence_bug" {
   type        = string
-  default     = "ssh_key_maxence"
+  default     = "ssh_key_maxence_bug"
   description = "Instance ssh key name"
 }
 

@@ -43,7 +43,10 @@ RUN mv terraform /usr/local/bin/
 ADD terraform/ /usr/share/terraform
 RUN chown -R jenkins /usr/share/terraform
 
-
+# Ansible
+RUN apt-get -y install ansible
+ADD ansible/ /usr/share/ansible
+RUN chown -R jenkins /usr/share/ansible
 
 USER jenkins
 # Jenkins runs all grovy files from init.groovy.d dir

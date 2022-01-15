@@ -5,8 +5,8 @@ data "template_file" "user_data" {
 resource "aws_instance" "app_instance" {
 
   count = var.instance_count
-  vpc_security_group_ids = [aws_security_group.allow_ssh.id]
-  key_name = var.ssh_key_name
+  vpc_security_group_ids = [aws_security_group.allow_ssh_bug.id]
+  key_name = var.ssh_key_maxence_bug
   ami = var.ami
   instance_type = var.instance_type
   user_data = data.template_file.user_data.rendered
@@ -18,8 +18,8 @@ resource "aws_instance" "app_instance" {
   }
 }
 
-resource "aws_security_group" "allow_ssh" {
-  name        = "allow_ssh"
+resource "aws_security_group" "allow_ssh_bug" {
+  name        = "allow_ssh_bug"
   description = "Allow ssh inbound traffic"
 
   ingress {
@@ -49,7 +49,7 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-resource "aws_key_pair" "ssh_key_maxence" {
-  key_name   = "ssh_key_maxence"
-  public_key = file("./key/id_rsa.pub")
+resource "aws_key_pair" "ssh_key_maxence_bug" {
+  key_name   = "ssh_key_maxence_bug"
+  public_key = file("~/.ssh/id_rsa")
 }

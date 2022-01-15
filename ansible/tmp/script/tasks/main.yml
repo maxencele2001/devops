@@ -1,0 +1,28 @@
+- name: Install Java
+  package:
+    name: java-11-openjdk
+    state: present
+
+- name: Create java_user
+  user:
+    name: '{{ USER }}'
+    state: present
+    append: yes
+    group: admin
+    password: "{{ 'java' | password_hash('sha512') }}"
+
+- name: Create directory for the jar
+  file:
+    path: '{{ PATH }}'
+    state: directory
+    owner: '{{ USER }}'
+
+- name: Download .jar
+  get_url:
+    url: 'https://github.com/Ozz007/sb3t/releases/download/1.0/sb3t-ws-1.0.jar'
+    dest: '{{ PATH }}'
+
+- name: Execute .jar
+  shell: 'java -jar {{ PATH }}/sb3t-ws-1.0.jar -Xmx128M'
+  become_user: '{{ USER }}'
+  async: 180

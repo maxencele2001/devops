@@ -1,0 +1,4 @@
+- hosts: ansible_host
+  become: yes
+  roles:
+    - role: script
